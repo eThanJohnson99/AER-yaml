@@ -160,13 +160,6 @@ Review the AWS Load Balancer Controller documentation for all available options:
 - Capacity units reservation
 - Advanced security settings
 
-## Contributing
-
-1. Create new resource templates in the appropriate directory
-2. Follow the naming convention: `{env}-{resource-type}-{resource-subtype}.yaml`
-3. Use variables for values that change between environments or deployments
-4. Add appropriate comments and documentation
-
 ## License
 
 This project is licensed under the terms of the included LICENSE file.
