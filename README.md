@@ -46,15 +46,16 @@ Before using these templates, you need:
 
 These templates contain placeholders that need to be replaced with your specific values. Set the following environment variables before applying the templates:
 
-| Variable                | Description                                 | Example                     |
-| ----------------------- | ------------------------------------------- | --------------------------- |
-| `AWS_REGION`            | AWS region where resources will be created  | `us-east-1`                 |
-| `AWS_ACCOUNT_ID`        | Your AWS account ID                         | `123456789012`              |
-| `CERTIFICATE_ID`        | SSL certificate ID for HTTPS listeners      | `abcdef1234567890`          |
-| `S3_LOGS_BUCKET_PREFIX` | Prefix for S3 buckets storing logs          | `my-company`                |
-| `SECURITY_GROUP_ID`     | Security group ID for restricted access     | `sg-1234567890abcdef0`      |
-| `ALLOWED_CIDR_BLOCKS`   | CIDR blocks allowed to access the resources | `10.0.0.0/16,172.16.0.0/16` |
-| `COST_CENTER`           | Cost center tag for billing                 | `123456`                    |
+| Variable                | Description                                 | Example                                |
+| ----------------------- | ------------------------------------------- | -------------------------------------- |
+| `AWS_REGION`            | AWS region where resources will be created  | `us-east-1`                            |
+| `AWS_ACCOUNT_ID`        | Your AWS account ID                         | `123456789012`                         |
+| `CERTIFICATE_ID`        | SSL certificate ID for HTTPS listeners      | `abcdef1234567890`                     |
+| `S3_LOGS_BUCKET_PREFIX` | Prefix for S3 buckets storing logs          | `my-company`                           |
+| `SECURITY_GROUP_ID`     | Security group ID for restricted access     | `sg-1234567890abcdef0`                 |
+| `ALLOWED_CIDR_BLOCKS`   | CIDR blocks allowed to access the resources | `10.0.0.0/16,172.16.0.0/16`            |
+| `COST_CENTER`           | Cost center tag for billing                 | `123456`                               |
+| `WAF_WEB_ACL_ID`        | Web ACL ID for WAF protection               | `3ab78708-85b0-49d3-b4e1-7a9615a6613b` |
 
 ## Usage
 
